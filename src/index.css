@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+:root {
+  --dark-color: #171717;
+}
+/*---------------------------------*/
+body{
+  font-family: Arial, serif;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.navbar{
+  background-color: var(--dark-color);
+}
+.navbar__rows{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+
+}
+.navbar__row{
+
+}
+.navbar__logo{
+  color: #fff;
+  font-size: 30px;
+}
+.navbar__button{
+  color: #fff;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.search{
+  padding-top: 50px;
+
+}
+
+.search__form{
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search input{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 15px 20px;
+  min-height: 58px;
+  flex: 1 1 auto;
+  background: #F9F9F9;
+  box-sizing: border-box;
+  border: 1px solid var(--dark-color);
+  border-radius: 5px 0px 0px 5px;
+}
+.search__btn button{
+  background-color: #171717;
+  color: white;
+  padding: 19px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+  transition: .3s;
+}
+.search__btn button:hover{
+  background-color: #3f3d3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
