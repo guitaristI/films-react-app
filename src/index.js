@@ -4,13 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter} from "react-router-dom";
+import ShowsState from "./context/shows/showsState";
+import AlertState from "./context/alerts/alertState";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-        <React.StrictMode>
-            <App />
-        </React.StrictMode>
+        <ShowsState>
+            <AlertState>
+                <App />
+            </AlertState>
+        </ShowsState>
     </HashRouter>
 
 );

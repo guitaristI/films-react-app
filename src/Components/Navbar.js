@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-
+import search from '../img/search.png';
 
 const Navbar = props => {
     return <div className='navbar'>
@@ -7,7 +7,7 @@ const Navbar = props => {
             <div className="navbar__rows">
                 <div className="navbar__row">
                     <div className="navbar__logo">
-                        TV SHOWS
+                        movie
                     </div>
                 </div>
                 <div className="navbar__row">
